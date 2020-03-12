@@ -1,0 +1,142 @@
+/*
+Theme Name: twentyseventeen
+Template: twentyseventeen
+*/
+@import url(../twentyseventeen/style.css);
+.site-title{
+    font-family: 'Alfa Slab One', cursive,'Impact';
+}
+#site-navigation,.entry-title,page-title.card-title,.menu-item, p{
+	  font-family: 'Roboto Slab', serif;
+}
+.site-title{
+    font-size: 2.5rem;
+}
+.site-title a:hover{
+    text-decoration: none;
+}
+.site-description{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.75rem;
+}
+.navigation-top > .wrap{
+    height: 100px;
+}
+.navigation-top {
+    background-color: #003300;
+}
+.navigation-top .current-menu-item > a,
+.navigation-top .current_page_item > a{
+    color: #ffffff;
+}
+#site-navigation{
+    padding-top: 5px;
+    font-size: 1.25rem;
+}
+#top-menu li a {
+    color: #ffffff;
+}
+#top-menu li a:hover{
+    text-decoration: none;
+}
+.menu-scroll-down{
+	  color:#ffffff!important;
+}
+.menu-item li a{
+	  color:#ffffff;
+	  background-color: #003300;
+}
+.menu-item li a:hover{
+	  color:#c0c0c0;
+	  background-color: #364d36;
+}
+.js .menu-toggle{
+    color: white;
+}
+.main-navigation li {
+    background: #003300;
+    z-index: 1;
+    text-align: center;
+}
+.main-navigation li li {
+	border: solid 0.5px #eeeeee;
+}
+.dropdown-toggle{
+    margin-right: 10px;
+    background: rgb(0,0,0,0);
+    color: white;
+    font-size: inherit;
+}
+.card-body a{
+	color:#000000;
+}
+.card-body a:hover{
+    text-decoration: none;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+	color: #622d18;
+    font-size: 1.3rem;
+    border-bottom: double 5px #eedcb3;
+    padding-bottom: 5px;
+}
+
+#colophon, #top-footer {
+	background:  #003300 none repeat scroll 0 0;
+	padding: 70px 0;
+}
+.page.page-one-column:not(.twentyseventeen-front-page) #primary{
+	  max-width: 1000px;
+}
+@media screen and (min-width: 30em){
+.page-one-column .panel-content .wrap {
+    max-width: 1000px;
+ }
+}
+@media screen and (min-width: 48em){
+    body.page-two-column:not(.archive) #primary .entry-header{
+        width: 100%;
+    }
+    .entry-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    body.page-two-column:not(.archive) #primary .entry-content{
+        width: 100%;
+    }
+}
+.site-info{
+    text-align: center;
+	  width:100%;
+	}
+.site-info a{
+	font-family: 'Roboto Slab', serif;
+	  color:#ffffff;
+	  text-decoration:none;
+}
+#menu-footer-menu{
+	list-style:none!important;
+	color:#ffffff;
+	display:flex;justify-content:center;flex-wrap:wrap;
+}
+#menu-footer-menu .menu-item{
+	padding:0px 20px 0px 10px!important;
+	border:none;
+}
+#menu-footer-menu .menu-item > a{
+	 font-family: 'Roboto Slab', serif;
+	color:#ffffff;
+	text-decoration:none;
+}
+@media screen and (min-width: 48em){
+.site-footer .widget-column.footer-widget-1 {
+    width: 100%;
+ }
+}
+label[for="search-form-1"],label[for="search-form-2"]{
+    display: none;
+    margin-bottom:0;
+}
