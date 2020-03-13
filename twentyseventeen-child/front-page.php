@@ -25,7 +25,7 @@ get_header(); ?>
             'orderby'          => 'date',
             'order'            => 'DESC',
         ]);
-		// Show the selected front page content.
+        // Show the selected front page content.
         if ( have_posts() ) :
             while ( have_posts() ) :
                 the_post(); ?>
