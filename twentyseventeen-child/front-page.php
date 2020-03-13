@@ -26,9 +26,9 @@ get_header(); ?>
             'order'            => 'DESC',
         ]);
 		// Show the selected front page content.
-		if ( have_posts() ) :
+        if ( have_posts() ) :
             while ( have_posts() ) :
-				the_post(); ?>
+                the_post(); ?>
                 <div class="panel-content">
                     <div class="wrap">
                     <header class="entry-header">
@@ -47,9 +47,9 @@ get_header(); ?>
                     </table>
                     </div>
                 </div>
-			<?php endwhile;
+            <?php endwhile;
 		else :
-			get_template_part( 'template-parts/post/content', 'none' );
+            get_template_part( 'template-parts/post/content', 'none' );
 		endif;
 		?>
 
